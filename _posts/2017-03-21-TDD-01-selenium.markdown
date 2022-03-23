@@ -79,7 +79,7 @@ $ python manage.py runserver
 실행한다.
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/selenium.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/selenium.png)
 
 
 위와 같은 창이 나타난다면 django 기능 테스트를 위한 셀레니움 설정이

@@ -14,7 +14,7 @@ Django 프로젝트를 배포해보면 정적 파일(Static file, Javascript, CS
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/django_static.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/django_static.png)
 
 
 <br/>

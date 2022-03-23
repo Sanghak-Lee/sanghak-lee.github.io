@@ -26,7 +26,7 @@ Kenneth Reitz는 인간을 위한 디자인에 신경을 많이 쓰는 개발자
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/requests_html_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/requests_html_01.png)
 
 
 <br>
@@ -67,7 +67,7 @@ pip install requests_html
 
 그리고 페이지가 7까지 있으므로 각 페이지를 모두 크롤해주면 된다. 링
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/requests_html_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/requests_html_02.png)
 
 
 <br>

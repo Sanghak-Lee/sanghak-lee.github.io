@@ -24,7 +24,7 @@ DP는 다음 2가지 특성을 만족해야만 사용할 수 있다.
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming.png)
 
 
 피보나치 수열은 DP로 풀 수 있는 문제의 대표적인 예이다. 먼저 Overlapping subproblem은 겹치는 부분 문제를 이야기하는데 즉, F(n-2), F(n-3), F(n-4) 등과 같이 같은 값을 여러번 구하는 것을 말한다. Optimal substructure은 나눠진 작은 문제의 해답으로 원래 문제의 정답을 찾을 수 있는 특징을 말한다.
@@ -40,7 +40,7 @@ F(n)의 답은 나눠진 작은 문제인 F(n-1)과 F(n-2)로 구할 수 있다.
 <br/> 
 
 #### 1463번 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_01.png)
 
 간단하게 생각하면 X가 2로 나누어지면 2로 나누고, 3으로 나누어질 때는 3으로 나누는 방식으로 풀 수 있을 것
 같지만 예외가 존재한다. 예를 들어 10은 2로 나눌 경우 4번(10->5->4->2->1)의 연산이 필요하지만 
@@ -53,7 +53,7 @@ F(n)의 답은 나눠진 작은 문제인 F(n-1)과 F(n-2)로 구할 수 있다.
 즉 10은 9, 5라는 작은 문제로 나누어지고 작은 문제의 정답을 이용하여 본래 문제의 정답을 찾을 수 있다.
 또한 9->(8 or 3), 5->4->(2 or 3)에서 3과 같이 겹치는 부분이 등장한다. 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_01-2.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_01-2.png)
 
 
 
@@ -84,13 +84,13 @@ print(dp[x])
 
 
 #### 11726번
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_02.png)
 
 
 2x1, 1x2 타일이 마지막에 올 수 있는 경우는 아래의 2가지 밖에 없다. 
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_02-2.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_02-2.png)
 
 즉, 1x2가 왔을 경우와 2x1가 2개 왔을 때 뿐이다. 그러므로 두 경우를 합하면 길이가 n인 2xn 크기의 
 직사각형을 채우는 방법은 1x2가 마지막에 오는 경우와 2x1이 마지막에 오는 경우를 더 하면 된다. 
@@ -121,7 +121,7 @@ print(dp[n]%10007)
 
 #### 10844번
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_03.png)
 
 인접한 수가 1차이나는 수이므로 ####3의 경우 앞에 올 수 있는 숫자는 ###2 또는 ###4뿐이다. 
 첫번째 자리를 제외하고(0이 올 수 없으므로) 0~9까지 각각의 수에 올 수 있는 경우가 조금씩 다르다. 
@@ -165,7 +165,7 @@ print(ans%1000000000)
 
 
 #### 11057번
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dynamic_programming_04.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dynamic_programming_04.png)
 
 오르막 수도 내리막 수와 비슷하게 접근하면 된다. ####3 이전에 올 수 있는 수가 ###0~3까지 이므로 
 

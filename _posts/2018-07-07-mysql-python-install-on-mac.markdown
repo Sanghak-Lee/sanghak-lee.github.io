@@ -12,7 +12,7 @@ encoding: UTF-8
 다른 프로젝트의 환경 세팅을 하던 중 MySQL-python를 설치하는 부분에서 아래와 같은 에러가 나는 것을 발견했다. 
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/mysql-python.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/mysql-python.png)
 
 <br>
 

@@ -19,7 +19,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_01.png)
 
 
 <br/>
@@ -30,7 +30,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_02.png)
 
 
 <br/>
@@ -45,7 +45,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_03.png)
 
 
 <br/>
@@ -62,7 +62,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_04.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_04.png)
 
 
 <br/>
@@ -78,7 +78,7 @@ VPC, IAM 등 설정을 위한 배경 지식이 필요하지만 이번 글에서�
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_05.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_05.png)
 
 
 <br/>
@@ -102,7 +102,7 @@ VPC, IAM 등 설정을 위한 배경 지식이 필요하지만 이번 글에서�
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_06.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_06.png)
 
 <br/>
 
@@ -126,13 +126,13 @@ VPC, IAM 등 설정을 위한 배경 지식이 필요하지만 이번 글에서�
 아래 메뉴에서 확인 가능 <br/>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_07.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_07.png)
 
 <br/>
 
 해당 인스턴스의 초기화가 끝날 때까지 대기 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_08.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_08.png)
 
 <br/>
 <br/>
@@ -151,7 +151,7 @@ VPC, IAM 등 설정을 위한 배경 지식이 필요하지만 이번 글에서�
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_09.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_09.png)
 
 
 <br/>
@@ -165,7 +165,7 @@ VPC, IAM 등 설정을 위한 배경 지식이 필요하지만 이번 글에서�
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/ec2_10.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/ec2_10.png)
 
 <br/>
 
@@ -218,7 +218,7 @@ $ sudo dpkg-reconfigure locales
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/server_setting_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/server_setting_01.png)
 
 
 <br/>
@@ -229,7 +229,7 @@ ko_KR.UTF-8 찾아서 체크(스페이스바) 후 엔터
 <br/>
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/server_setting_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/server_setting_02.png)
 
 
 <br/>
@@ -243,7 +243,7 @@ ko_KR.UTF-8 찾아서 체크(스페이스바) 후 엔터
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/server_setting_03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/server_setting_03.png)
 
 <br/>
 
@@ -258,7 +258,7 @@ $ sudo vim /etc/hosts
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/server_setting_04.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/server_setting_04.png)
 
 
 <br/>
@@ -366,7 +366,7 @@ $ python3 manage.py runserver  # 실행되는지 확인
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/uwsgi.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/uwsgi.png)
 
 
 <br/>
@@ -403,7 +403,7 @@ $ sudo service nginx start
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/nginx_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/nginx_01.png)
 
 <br/>
 
@@ -446,7 +446,7 @@ $ sudo vim /etc/nginx/conf.d/파일명.conf
 <br/>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/nginx_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/nginx_02.png)
 
 <br/>
 

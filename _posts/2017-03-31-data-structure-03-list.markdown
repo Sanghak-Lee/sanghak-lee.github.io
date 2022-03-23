@@ -25,7 +25,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/list01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/list01.png)
 
 
 <br/>
@@ -33,7 +33,7 @@ encoding: UTF-8
 
 #### 3.1 ADT(Abstract Data Type)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/listADT.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/listADT.png)
 
 
 <br/>
@@ -118,7 +118,7 @@ class LinkedList:
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/list02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/list02.png)
 
 그림처럼 가장 마지막 노드의 링크 필드를 가장 첫 노드를 가르키게 하여 계속적으로 순회할 수 있다. 
 
@@ -131,7 +131,7 @@ class LinkedList:
 이중 연결 리스트는 단순 연결 리스트와는 다르게 이전 노드를 가르키는 링크 필드와 다음 노드를 가르키는 링크 필드로 구성되어 있다. 
 즉, 양방향으로 연결되어 있어 양쪽 방향으로 탐색이 가능하다. 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/list03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/list03.png)
 
 <br/>
 <br/>

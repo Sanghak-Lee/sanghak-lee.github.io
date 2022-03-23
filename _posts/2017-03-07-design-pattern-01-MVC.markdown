@@ -23,7 +23,7 @@ MVC의 예로는 Django(MVC와 유사한 MTV를 사용)가 있다.
 
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/MVC_pattern.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/MVC_pattern.png)
 
 
 

@@ -59,7 +59,7 @@ print(f"Result: {sum(result)}")
 
 위의 코드를 싱글 쓰레드로 실행했을 때 걸리는 시간은 7.474이다. (실행시 마다 차이는 있다)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/one.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/one.png)
 
 <br/>
 
@@ -99,7 +99,7 @@ print(f"Result: {sum(result)}")
 <br/>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/two.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/two.png)
 
 <br/>
 
@@ -143,7 +143,7 @@ print(f"Result: {sum(result)}")
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/four.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/four.png)
 
 <br/>
 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/pro.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/pro.png)
 
 <br/>
 

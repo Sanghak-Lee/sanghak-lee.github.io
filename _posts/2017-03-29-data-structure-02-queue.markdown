@@ -26,7 +26,7 @@ data 삭제 순서 [data1, data2, data3, data4, data5]
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/queue.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/queue.png)
 
 
 <br/>
@@ -34,7 +34,7 @@ data 삭제 순서 [data1, data2, data3, data4, data5]
 
 #### 2.1 ADT(Abstract Data Type)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/queueADT.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/queueADT.png)
 
 
 <br/>
@@ -85,7 +85,7 @@ data 삭제 순서 [data1, data2, data3, data4, data5]
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/circular.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/circular.png)
 
 <br/>
 <br/>

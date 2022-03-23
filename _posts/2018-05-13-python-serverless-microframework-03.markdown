@@ -46,7 +46,7 @@ IAM role에 대한 탭인데 클릭해서 이동한다.
 <br>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/chalice_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/chalice_01.png)
 
 <br>
 
@@ -55,7 +55,7 @@ IAM role에 대한 탭인데 클릭해서 이동한다.
 <br>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/chalice_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/chalice_02.png)
 
 <br>
 
@@ -66,7 +66,7 @@ IAM role에 대한 탭인데 클릭해서 이동한다.
 <br>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/chalice_03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/chalice_03.png)
 
 
 <br>

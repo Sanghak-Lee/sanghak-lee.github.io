@@ -22,7 +22,7 @@ encoding: UTF-8
 
 #### 3.1 구성(Composition, 조립)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/Factory_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/Factory_01.png)
 
 위와 같은 구조의 프로그램이 있을 때(BaseMacBookPro의 자식 클래스가 무수히 많다고 가정), MacBookPro16으로 인해 문제가 발생한다. MacBookPro16의 경우 터치바와 관련된 메소드를 포함하고 있는데 이 때문에 부모 클래스에도 터치바와 관련된 메소드를 추가해주어야하고 추가된 이후에 터치바와 관련이 없는 클래스에도 터치바 관련 메소드가 상속되어진다. 상속 받는 클래스의 숫자가 많으면 많을 수록 문제가 복잡해진다.
 
@@ -38,7 +38,7 @@ encoding: UTF-8
 #### 3.2 Simple Factory
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/Factory_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/Factory_02.png)
 
 구성을 이용했을 때 클래스 다이어그램
 

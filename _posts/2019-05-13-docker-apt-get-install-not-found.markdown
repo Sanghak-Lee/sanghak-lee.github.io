@@ -17,7 +17,7 @@ encoding: UTF-8
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/dockerfile_error_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/dockerfile_error_01.png)
 
 <br>
 

@@ -33,7 +33,7 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_01.png)
 
 <br>
 
@@ -41,7 +41,7 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_02.png)
 
 <br>
 
@@ -49,7 +49,7 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_03.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_03.png)
 
 <br>
 
@@ -57,7 +57,7 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_04.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_04.png)
 
 
 <br>
@@ -66,7 +66,7 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_05.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_05.png)
 
 <br>
 
@@ -74,11 +74,11 @@ AWS console에서 IAM을 찾아서 클릭하면 아래와 같은 화면을 볼 �
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_06.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_06.png)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_07.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_07.png)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_08.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_08.png)
 
 <br>
 
@@ -89,7 +89,7 @@ IAM, AWS Lambda, Amazon API Gateway 3가지 청책을 그룹에 추가해주고 
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_09.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_09.png)
 
 <br>
 
@@ -98,7 +98,7 @@ IAM, AWS Lambda, Amazon API Gateway 3가지 청책을 그룹에 추가해주고 
 <br>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/aws_credentials_10.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/aws_credentials_10.png)
 
 
 <br>

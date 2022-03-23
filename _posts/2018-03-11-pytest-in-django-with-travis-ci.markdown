@@ -109,7 +109,7 @@ $ python -m pytest --cov=.
 
 결과는 아래 그림처럼 출력된다.
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/pytest_cov.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/pytest_cov.png)
 
 
 <br>

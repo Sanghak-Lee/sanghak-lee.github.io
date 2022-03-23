@@ -26,7 +26,7 @@ A에 변경점이 생기더라도 퍼사드 패턴에서는 B, C를 변경해주
 
 #### 4.1 구조
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/Facade.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/Facade.png)
 
 위의 구조처럼 사용자는 파사드 클래스를 통해 서브 시스템을 사용하며, 서브 시스템의 내부 구조에 대한 이해가
 필요하지 않다. 

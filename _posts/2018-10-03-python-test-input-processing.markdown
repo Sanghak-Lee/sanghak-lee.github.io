@@ -21,7 +21,7 @@ python에서 test를 짜다보면 사용자 입력(input이나 sys.stdin.readlin
 
 9339번 문제의 입력 예시는 아래와 같다. 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/input_processing_01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/input_processing_01.png)
 
 <br>
 

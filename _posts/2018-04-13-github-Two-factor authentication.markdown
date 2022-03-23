@@ -27,13 +27,13 @@ Github 또한 2FA를 지원하는데 Github에서 2FA를 설정하고 커맨드 
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_1.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_1.png)
 
 <br>
 
 Security에 가면 Recovery tokens 아래에 Two-factor authentication 이라는 항목이 있는 것을 볼 수 있다.
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_2.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_2.png)
 
 <br>
 
@@ -42,7 +42,7 @@ Security에 가면 Recovery tokens 아래에 Two-factor authentication 이라는
 <br>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_3.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_3.png)
 
 <br>
 
@@ -53,7 +53,7 @@ Security에 가면 Recovery tokens 아래에 Two-factor authentication 이라는
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_4.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_4.png)
 
 
 <br>
@@ -65,7 +65,7 @@ Security에 가면 Recovery tokens 아래에 Two-factor authentication 이라는
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_5.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_5.png)
 
 
 <br>
@@ -79,7 +79,7 @@ SMS를 선택했기 때문에 위와 같은 화면이 보인다. SMS를 활용�
 
 설정이 모두 끝난 다음 커밋을 리모트 레포지토리에 반영하기 위해 푸시를 하였더니 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_6.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_6.png)
 
 
 <br>
@@ -97,20 +97,20 @@ SMS를 선택했기 때문에 위와 같은 화면이 보인다. SMS를 활용�
 
 <br>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_7.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_7.png)
 
 <br>
 
 Developer settings에서 Personal access tokens를 선택하고 Generate new token을 누른다. 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_8.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_8.png)
 
 
 <br>
 
 그러면 아래와 같은 화면이 나올 텐데 tile과 필요한 권한을 선택하고 Generate token을 선택한다.  
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_9.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_9.png)
 
 
 
@@ -120,7 +120,7 @@ Developer settings에서 Personal access tokens를 선택하고 Generate new tok
 그러면 아까의 Personal access tokens 에서 새로 만들어진 token이 보이고 복사할 수 있는 버튼이 나온다. 
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/github_2FA_10.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/github_2FA_10.png)
 
 
 복사한 후에 커맨드 라인에서 패스워드 대신에 입력하면 git push가 정상적으로 이루어진다. 

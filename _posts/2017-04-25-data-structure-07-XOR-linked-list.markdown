@@ -36,7 +36,7 @@ ptr = 이전 노드 포인터 ^ 다음 노드 포인터
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/XOR.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/XOR.png)
 
 <br/>
 

@@ -25,7 +25,7 @@ data 삭제 순서 [data5, data4, data3, data2, data1]
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/stack_small.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/stack_small.png)
 
 
 <br/>
@@ -33,7 +33,7 @@ data 삭제 순서 [data5, data4, data3, data2, data1]
 
 #### 1.1 ADT(Abstract Data Type)
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/stackADT_small.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/stackADT_small.png)
 
 
 <br/>
@@ -75,7 +75,7 @@ python 리스트 특성상 is_full은 구현할 필요가 없다.
 
 ##### 1918번
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/stack01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/stack01.png)
 
 <br/>
 
@@ -126,7 +126,7 @@ while stack:
 
 ##### 1874번
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/stack02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/stack02.png)
 
 <br/>
 

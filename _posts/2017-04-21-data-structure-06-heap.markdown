@@ -33,7 +33,7 @@ encoding: UTF-8
 <br/>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/MaxHeap.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/MaxHeap.png)
 
 <br/>
 
@@ -45,7 +45,7 @@ encoding: UTF-8
 <br/>
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/MinHeap.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/MinHeap.png)
 
 
 
@@ -143,7 +143,7 @@ class MaxHeap:
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/MaxHeap.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/MaxHeap.png)
 
 <br/>
 
@@ -155,7 +155,7 @@ class MaxHeap:
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/pop.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/pop.png)
 
 <br/>
 <br/>

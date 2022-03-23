@@ -28,7 +28,7 @@ encoding: UTF-8
 
 #### 5.1 구조
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/proxy.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/proxy.png)
 
 위 다이어그램에서 Proxy 객체는 실제 사용할 객체인 RealSubject객체와 동일 인터페이스를 상속받고 
 Client는 이 Proxy 객체에 RealSubject에 대한 호출을 위임한다. 

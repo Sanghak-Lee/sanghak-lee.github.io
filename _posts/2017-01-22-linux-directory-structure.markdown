@@ -13,7 +13,7 @@ encoding: UTF-8
 FHS라는 표준을 통해 대부분의 리눅스 배포판이 이러한 기본 구조를 갖는다. (FHS는 리눅스 재단에 의해 유지되고 있음)
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/linux_directory_structure.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/linux_directory_structure.png)
 
 
 

@@ -29,7 +29,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/tree01.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/tree01.png)
 
 <br/>
 
@@ -57,7 +57,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/tree02.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/tree02.png)
 
 <br/>
 
@@ -72,7 +72,7 @@ encoding: UTF-8
 #### 4.3 이진 트리의 ADT(Abstract Data Type)
 
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/treeADT.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/treeADT.png)
 
 
 <br/>
@@ -117,7 +117,7 @@ encoding: UTF-8
 
 <br/>
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/treeADT.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/treeADT.png)
 
 <br/>
 

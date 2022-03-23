@@ -29,7 +29,7 @@ encoding: UTF-8
 
 #### 6.1 구조
 
-![branch Image](https://raw.githubusercontent.com/Sanghak-Lee/blog/master/static/img/_posts/observer.png)
+![branch Image](https://raw.githubusercontent.com/sanghak-lee/sanghak-lee.github.io/master/static/img/_posts/observer.png)
 
 
 
