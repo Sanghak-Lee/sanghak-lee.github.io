@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-email: blacksangi@gmail.com
+email: eaa0305@naver.com
