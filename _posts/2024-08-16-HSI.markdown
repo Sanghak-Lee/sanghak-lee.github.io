@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kill query in Amazon RDS for MySQL"
+title: "High Speed Interface(PLL)"
 date: 2024-08-16 17:00:00 +0900
 categories: [circuit]
 encoding: UTF-8
@@ -9,7 +9,7 @@ encoding: UTF-8
 <br>
 <br>
 
-### MySQL RDS에서 프로시저를 활용한 쿼리 죽이기
+### HSI interface
 
 <br>
 
