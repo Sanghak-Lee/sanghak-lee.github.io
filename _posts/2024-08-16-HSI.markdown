@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "High Speed Interface(PLL)"
-date: 2024-08-16 17:00:00 +0900
-categories: [circuit]
+date: 2024-08-16 17:10:12 +0900
+categories: [circuit, backend]
 encoding: UTF-8
 ---
 
