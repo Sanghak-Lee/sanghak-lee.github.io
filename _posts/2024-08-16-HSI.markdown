@@ -2,7 +2,7 @@
 layout: post
 title: "High Speed Interface(PLL)"
 date: 2024-08-16 12:10:12 +0900
-categories: [circuit, backend]
+categories: [circuit]
 encoding: UTF-8
 ---
 
@@ -13,38 +13,45 @@ encoding: UTF-8
 
 <br>
 
-RDS 기반의 MySQL을 서비스에 운영 중이라면 종종 kill 명령어로 죽지 않는 쿼리들을 만날 수 있다.
-
-일반적으로는 현재 접속한 계정이 아닌 다른 계정에서 날린 쿼리를 kill 할려고 할 때인데, 
-
-이럴 경우 아래와 같은 에러 메시지를 볼 수 있다.
+HSI(High Speed Interface)에 대한 학습
 
 ```
-Error Code: 1095. You are not owner of thread 341
+Tx(Transmitter) - Serializer + PLL
+TL(Transmission Line)
+Rx(Receiver) - EQ + CDR + Deserializer
 ```
 
-이런 경우 해당 유저로 접속이 가능하다면 해당 유저로 접속한 후 kill 명령을 실행하면 되겠지만, 
-
-접속 정보를 알 수 없는 유저의 경우 매우 난감한 상황이 생길 수 있다. 
-
-이런 문제를 해결하기 위해 RDS에는 많은 종류의 프로시저들을 미리 만들어 두었는데, 
-
-Error code 1095의 경우 mysql.rds_kill 또는 mysql.rds_kill_query 프로시저로 해결이 가능하다. 
-
-두 가지다 인자로 쿼리를 실행하고 있는 쓰레드의 id를 넘겨주면 해당 쓰레드에서 돌고 있는 쿼리 혹은 쓰레드를 중지시켜 준다. 
-
 ```
-CALL mysql.rds_kill(341)
+PLL + Tx(Ser -> EQ_TX(FFE)) -> TL -> EQ_RX(CTLE -> VGA -> DFE) -> Des
 ```
 
-또는
-```
-CALL mysql.rds_kill_query(341)
-```
+## Tx
+### Equalizer
+EQ_Tx(Feed Forward Equalizer)
 
-같은 형태로 사용할 수 있다. 
+### Serializer
 
-이 밖에도 수십개의 프로시저가 있으므로 상황에 맞게 선택해서 사용하면 된다.
+### PLL
+
+<br>
+
+## TL
+Transmission line model
+
+## Rx
+### Equailizer
+EQ_Rx(CTLE -> VGA -> DFE)
+CTLE - Continuous Time Linear Equalizer
+<img width="1246" alt="스크린샷 2024-08-16 오후 3 19 14" src="https://github.com/user-attachments/assets/6e1f9b15-f032-4a49-832f-7f799af2f477">
+
+<br>VGA - Variable Gain Amplifier
+<img width="1206" alt="스크린샷 2024-08-16 오후 3 19 53" src="https://github.com/user-attachments/assets/99ab8842-ebb1-4efe-9772-f26101571782">
+
+<br>DFE - Decision Feedback Equalizer
+<img width="1243" alt="스크린샷 2024-08-16 오후 3 20 32" src="https://github.com/user-attachments/assets/4d828b4e-18db-494a-9735-655e90ce1132">
+
+### Clock Data Recovery
+### Deserializer
 
 
 <br>
