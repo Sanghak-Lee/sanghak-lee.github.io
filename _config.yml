@@ -1,52 +1,413 @@
-title: Welcome to Sanghak's Workplace
-description: Developing, Mingling, etc...
-author: Sanghak Lee
-github: https://github.com/sanghak-lee
-about: Python Developer, Circuit Designer
-disqus_shortname: developer-sanghak
-#google_analytics: UA-XXXXXXXX-Y
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-encoding: UTF-8
-enableTags: true
-tagarray: []
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+github: [metadata]
+minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+# Site Settings
+locale                   : "ko-KR"
+title                    : "이상학"
+title_separator          : "-"
+subtitle                 : "기억의 지배장" #"A Jekyll theme"
+name                     : &name "이상학" # &name is a YAML anchor which can be *referenced later
+description              : &description "Powered by Github Pages & Jekyll(Theme : Minimal-Mistakes)"
+url                      : https://sanghak-lee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "sanghak-lee/sanghak-lee.github.io"
+teaser                   : https://source.unsplash.com/random # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+#breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
+date_format              : "%Y-%m-%d, %H:%M"
+paginate                 : 5
+paginate_path            : /page/:num/
+# pagination               :
+#   enabled                : true
+#   per_page               : 5
+#   permalink              : '/page/:num/'
+#   sort_field             : 'last_modified_at'
+#   sort_reverse           : true
+#   category               : 'posts'
+#   trail                  : 
+#     before               : 2
+#     after                : 2
+comments:
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
+  disqus:
+    shortname            : "developer-sanghak"
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : "github-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 
+reCaptcha:
+  siteKey                : # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+  secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia
+#algolia:
+#  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
+#  index_name             : minimal_mistakes # YOUR_INDEX_NAME
+#  search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
+#  powered_by             : true # true (default), false
+#  files_to_exclude:
+#    - _posts/2017-11-28-post-exclude-search.md
+
+# SEO Related
+google_site_verification : #"UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
+bing_site_verification   :
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
+
+# Social Sharing
+twitter:
+  username               : &twitter "sanghak"
+facebook:
+  username               : &facebook "sanghak"
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/self.png" # Open Graph/Twitter default site image
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-    - icon: fa-facebook
-      link: "https://www.facebook.com/blacksangi"
-    - icon: fa-github
-      link: "https://github.com/sanghak-lee"
-#    - icon: fa-twitter
-#      link: "https://twitter.com/agusmakmun6"
-#    - icon: fa-linkedin
-#      link: "#"
-#    - icon: fa-stack-exchange
-#      link: "#"
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/sanghak"
+    - "https://www.facebook.com/sanghak"
 
-#share:
-#  twitter_username: agusmakmun6
-#  fb_appid: 1749788565247320
+# Analytics
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : # Replace this with your ID, or delete
+    anonymize_ip         : # true, false (default)
 
-urls:
-#    - text: Resume
-#      url: /resume
-#    - text: Projects
-#      url: /projects/
-    - text: Github
-      url: https://github.com/sanghak-lee
-    - text: XML Feed
-      url: /feed.xml
 
-url: "https://sanghak-lee.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/self.png"
+  bio              : "변화와 응용에 능숙합니다. 리팩토링, 커스텀을 좋아하는 등 나만의 무언가를 만드는걸 좋아합니다."
+  location         : "Republic of Korea"
+  links:
+#    - label: "Made Mistakes"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_wonseok_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sanghak-lee"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/sanghak-lee-038485192/"
+
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_wonseok_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sanghak-lee"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/sanghak-lee-038485192/"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - x-pages
+  - x-posts
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
 markdown: kramdown
-gems:
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+  # sxh
+  - scope:
+      path: "sxh"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "sxh"
+      header:
+        teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"  
+
+  # Algorithm
+  - scope:
+      path: "algorithm"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+
+  # CSN
+  - scope:
+      path: "csn"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+
+  # owaf
+  - scope:
+      path: "owaf"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "owaf"      
+      header:
+        overlay_image: /assets/images/unsplash/cpp-UjJWhMerJx0.jpg
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/UjJWhMerJx0)"
+  # portfolio
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: false
+      comments: true
+      share: true
+      related: true
+      toc: false
+      toc_sticky: true
+      classes: wide
+      header:
+      #   teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_image: https://source.unsplash.com/featured/?portfolio
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://source.unsplash.com/featured/?portfolio)"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-algolia
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-algolia
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
