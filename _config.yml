@@ -302,6 +302,20 @@ defaults:
       toc: true
       toc_sticky: true
 
+  # DEV
+  - scope:
+      path: "dev"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true      
+
   # owaf
   - scope:
       path: "owaf"
