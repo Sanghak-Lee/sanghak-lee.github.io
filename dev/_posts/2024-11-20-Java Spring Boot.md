@@ -14,7 +14,7 @@ tags:
 
 
 ## JAVA
-![JAVA-1](./images/image.png)
+![JAVA-1]({{'/assets/images/dev/jpa.png' | relative_url }})
 
 JSE,  
 JDK > JRE > JVM
