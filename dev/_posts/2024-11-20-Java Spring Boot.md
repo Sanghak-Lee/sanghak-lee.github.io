@@ -14,21 +14,28 @@ tags:
 
 
 ## JAVA
-![JAVA-1]({{'/assets/images/dev/jpa.png' | relative_url }})
+<!-- ![JAVA-1]({{'/assets/images/dev/jdk.png' | relative_url }}) -->
+<figure style="width: 400px" class="align-left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/dev/jdk.jpg" alt="">
+  <figcaption>Java 생태계</figcaption>
+</figure>   
 
-JSE,  
-JDK > JRE > JVM
-#### JSE(Java Standard Edition)  
+`JSE, JDK > JRE > JVM`
+
+**JSE(Java Standard Edition)**
 - 문법  
-#### JDK(Java Development Kit)  
-- Compiler,JRE,JVM 포함
-#### JRE(Java Runtime Environment)  
 
-#### JVM(Java Virtual Machine)  
+**JDK(Java Development Kit)**
+- Compiler,JRE,JVM 포함  
+
+**JRE(Java Runtime Environment)**  
+
+**JVM(Java Virtual Machine)**  
     
   
 
 ## Spring, JPA 추상화
 
-#### Spring <-> Spring Data JPA <-> JPA <-> Hibernate <-> RDS(ex.H2, Mysql)
-![Abstraction]({{ '/assets/images/abstraction-jpa.png' | relative_url }})
+Spring <-> Spring Data JPA <-> JPA <-> Hibernate <-> RDS(ex.H2, Mysql)
+
+<img src="{{ '/assets/images/abstraction-jpa.png' | relative_url }}" alt="Abstraction" width="400">
