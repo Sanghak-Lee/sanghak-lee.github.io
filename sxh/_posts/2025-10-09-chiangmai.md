@@ -12,8 +12,8 @@ excerpt: "전주 다음엔 치앙마이였네"
 화 - Cafe Yellow  
 
 > 수 - Zoe in Yellow, Warm up, 마오얌  
-> 목 - Lavish,   
-> 금 - 싼티탐 주류점, 램쇼바, Warm up, Hey bar  
+> 목 - Lavish, Warm up, 마모얌(여권 분실)
+> 금 - 싼티탐 주류점, 램쇼바, 콜미, Warm up, Hey bar(여권 되찾음)
 
 토 - Saturday Market, ??  
 일 - Sunday Market, 3D band  
